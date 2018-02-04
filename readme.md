@@ -22,3 +22,6 @@ The dev branch is the main working branch. It may only be updated by pull reques
 For regular development each developer shall create a "feature branch" this is a branch named in the convention: "feature/name" or "bugfix/name". These are for new features and for bugfixes, respectively.
 
 When work starts on a new feature, its branch will be made off of the latest version of dev, and all development will occur on the branch. When the feature is considered ready, it will be merged onto the dev branch. When merging, automatic merging, LV Merge tool merging, or simply copying and pasting of code fragments may be necessary.
+
+## Issue Management
+This repository shall use the GitHub issue tracker. New issues will be opened, and can be attached to a new branch or an existing branch. only when the branch is merged to dev (after a pull request) will the issue be closed.
