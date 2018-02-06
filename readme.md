@@ -8,9 +8,9 @@ It may be a little bit confusing since there is another repository for that also
 There are a few top level folders currently, and I may be adding more:
   * Robot-Project starts with a blank command and control LabVIEW robot project.
   * Dashboard-Project starts with a blank LabVIEW Dashboard project.
-  * shared holds code that is used by other projects.
-  * auto-routines starts empty and will hold a directory of regular auto routines and a directory of pure pursuit auto routines.
-  * support starts empty and holds a number of projects which are not directly run in competition, but are used tangentially for example to generate an auto-routine.
+  * Shared holds code that is used by other projects.
+  * AutoRoutines starts empty and will hold a directory of regular auto routines and a directory of pure pursuit auto routines.
+  * Support starts empty and holds a number of projects which are not directly run in competition, but are used tangentially for example to generate an auto-routine.
 
 ## Branching and Workflow on this Repository
 This project shall follow the following workflow:
