@@ -244,7 +244,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="RobotPosition.ctl" Type="VI" URL="../../../FRC-2018/Shared/RobotPosition.ctl"/>
+			<Item Name="RobotPosition.ctl" Type="VI" URL="../../Shared/RobotPosition.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
