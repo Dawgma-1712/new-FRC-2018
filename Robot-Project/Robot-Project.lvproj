@@ -131,8 +131,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Drive/Implementation/Drive Published Globals.vi"/>
-		<Item Name="Robot Global Data.vi" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Framework/Robot Global Data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -730,8 +728,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Drive/Implementation/Drive Setpoints.ctl"/>
-			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Drive/Implementation/Drive Operations.ctl"/>
 			<Item Name="Latch.vi" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Support Code/Latch.vi"/>
 			<Item Name="derivative.vi" Type="VI" URL="../../../FRC-2018-paste/2018Robot/Support Code/derivative.vi"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
@@ -745,7 +741,6 @@ AddOutputFilter chunkFilter
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../../FRC-2018-paste/Shared/RobotNeededPathData.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
