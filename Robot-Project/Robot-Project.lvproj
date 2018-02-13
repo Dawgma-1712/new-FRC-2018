@@ -27,7 +27,39 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="TestPurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/TestPurePursuit.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+			</Item>
+			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Shared/RobotNeededPathData.ctl"/>
+			<Item Name="InjectPoints.vi" Type="VI" URL="../Drive/PurePursuit/InjectPoints.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../Support Code/DistanceFormula.vi"/>
+			<Item Name="Smoother.vi" Type="VI" URL="../Drive/PurePursuit/Smoother.vi"/>
+			<Item Name="PurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/PurePursuit.vi"/>
+			<Item Name="RadiusOfCircleThreePoints.vi" Type="VI" URL="../Drive/PurePursuit/RadiusOfCircleThreePoints.vi"/>
+			<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../Drive/PurePursuit/CalcDistanceFromEnd.vi"/>
+			<Item Name="CalculateVelAtPoints.vi" Type="VI" URL="../Drive/PurePursuit/CalculateVelAtPoints.vi"/>
+			<Item Name="ClosestPoint.vi" Type="VI" URL="../Drive/PurePursuit/ClosestPoint.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../Support Code/RateLimiter.vi"/>
+			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../Drive/PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="Latch.vi" Type="VI" URL="../Support Code/Latch.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../Support Code/TimerOnDelay.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../Support Code/Timeout.vi"/>
+			<Item Name="LookAheadPoint.vi" Type="VI" URL="../Drive/PurePursuit/LookAheadPoint.vi"/>
+			<Item Name="CalculateCurvature.vi" Type="VI" URL="../Drive/PurePursuit/CalculateCurvature.vi"/>
+			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/VisualizePurePursuit.vi"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../Drive/PurePursuit/DrawCircle.vi"/>
+			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../Drive/PurePursuit/CalculatePowerPursuit.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../Support Code/derivative.vi"/>
+			<Item Name="Robot.vi" Type="VI" URL="../Support Code/RobotSimulator/Robot.vi"/>
+			<Item Name="robotSimulation.vi" Type="VI" URL="../Support Code/RobotSimulator/robotSimulation.vi"/>
+			<Item Name="motorTorque.vi" Type="VI" URL="../Support Code/RobotSimulator/motorTorque.vi"/>
+			<Item Name="robotFriction.vi" Type="VI" URL="../Support Code/RobotSimulator/robotFriction.vi"/>
+			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../Drive/PurePursuit/EncodersGyroToXY.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -780,6 +812,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_RobotDriveOpen2Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2Motor.vi"/>
 				<Item Name="WPI_EncoderRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Get.vi"/>
 				<Item Name="Number To Enum.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Number To Enum.vim"/>
+				<Item Name="Lossy Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Lossy Behavior.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -801,6 +838,17 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AutoRoutineSelector.ctl" Type="VI" URL="../../Shared/AutoRoutineSelector.ctl"/>
 			<Item Name="CheesyDrive.vi" Type="VI" URL="../Drive/CheesyDrive.vi"/>
+			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Shared/RobotNeededPathData.ctl"/>
+			<Item Name="Lossy Stream-c(dbl,dbl,dbl,c(dbl,dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(dbl,dbl,dbl,c(dbl,dbl)).lvlib"/>
+			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
+			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
+			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../Configuration/Constants.vi"/>
+			<Item Name="AutonomousRoutine.ctl" Type="VI" URL="../../Shared/AutonomousRoutine.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
