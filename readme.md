@@ -9,7 +9,7 @@ There are a few top level folders currently, and I may be adding more:
   * Robot-Project starts with a blank command and control LabVIEW robot project.
   * Dashboard-Project starts with a blank LabVIEW Dashboard project.
   * Shared holds code that is used by other projects.
-  * Support starts empty and holds a number of projects which are not directly run in competition, but are used tangentially,     for example: to generate an auto-routine. Any files created by these projects will be saved in the project's folder. 
+  * Support starts empty and holds a number of projects which are not directly run in competition, but are used tangentially, for example: to generate an auto-routine. Any files created by these projects will be saved in the project's folder. 
 
 ## Branching and Workflow on this Repository
 This project shall follow the following workflow:
