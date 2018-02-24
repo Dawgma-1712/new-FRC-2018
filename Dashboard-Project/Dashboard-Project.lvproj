@@ -22,6 +22,7 @@
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="AutonomousRoutine.ctl" Type="VI" URL="../../Shared/AutonomousRoutine.ctl"/>
 		<Item Name="AutoRoutineSelector.ctl" Type="VI" URL="../../Shared/AutoRoutineSelector.ctl"/>
+		<Item Name="2CubeOption.ctl" Type="VI" URL="../../Shared/2CubeOption.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -244,7 +245,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="RobotPosition.ctl" Type="VI" URL="../../Shared/RobotPosition.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
