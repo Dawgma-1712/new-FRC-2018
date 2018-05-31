@@ -48,9 +48,6 @@
 			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/VisualizePurePursuit.vi"/>
 			<Item Name="DrawCircle.vi" Type="VI" URL="../Drive/PurePursuit/DrawCircle.vi"/>
 			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../Drive/PurePursuit/EndOfPathHandler.vi"/>
-			<Item Name="Latch.vi" Type="VI" URL="../Support Code/Latch.vi"/>
-			<Item Name="TimerOnDelay.vi" Type="VI" URL="../Support Code/TimerOnDelay.vi"/>
-			<Item Name="RateLimiter.vi" Type="VI" URL="../Support Code/RateLimiter.vi"/>
 			<Item Name="ClosestPoint.vi" Type="VI" URL="../Drive/PurePursuit/ClosestPoint.vi"/>
 			<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../Drive/PurePursuit/CalcDistanceFromEnd.vi"/>
 			<Item Name="CalculateVelAtPoints.vi" Type="VI" URL="../Drive/PurePursuit/CalculateVelAtPoints.vi"/>
@@ -60,6 +57,12 @@
 			<Item Name="motorTorque.vi" Type="VI" URL="../Support Code/RobotSimulator/motorTorque.vi"/>
 			<Item Name="robotFriction.vi" Type="VI" URL="../Support Code/RobotSimulator/robotFriction.vi"/>
 			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../Drive/PurePursuit/EncodersGyroToXY.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/DistanceFormula.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/RateLimiter.vi"/>
+			<Item Name="Latch.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/Latch.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/TimerOnDelay.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/Timeout.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/derivative.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
