@@ -31,6 +31,7 @@
 		<Item Name="2CubeRoutineSelector.vi" Type="VI" URL="../Autonomous/2CubeRoutineSelector.vi"/>
 		<Item Name="TestPurePursuit.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/TestPurePursuit.vi"/>
 		<Item Name="1DTurnMain.vi" Type="VI" URL="../Drive/Implementation/Controllers/1DTurnMain.vi"/>
+		<Item Name="DriveForDistanceTester.vi" Type="VI" URL="../Drive/Implementation/Controllers/DriveForDistanceTester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -65,6 +66,7 @@
 			<Item Name="PositionBased1DProfile.vi" Type="VI" URL="../Drive/Implementation/Controllers/PositionBased1DProfile.vi"/>
 			<Item Name="TurnToAngleController.vi" Type="VI" URL="../Drive/Implementation/Controllers/TurnToAngleController.vi"/>
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
+			<Item Name="DriveForDistanceController.vi" Type="VI" URL="../Drive/Implementation/Controllers/DriveForDistanceController.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -964,6 +966,7 @@ AddOutputFilter chunkFilter
 			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/EncodersGyroToXY.vi"/>
 			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
+			<Item Name="InjectPoints.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/InjectPoints.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
