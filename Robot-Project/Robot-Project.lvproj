@@ -61,10 +61,10 @@
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
 			<Item Name="PositionBased1DProfile.vi" Type="VI" URL="../Drive/Implementation/Controllers/PositionBased1DProfile.vi"/>
 			<Item Name="DriveForDistanceController.vi" Type="VI" URL="../Drive/Implementation/Controllers/DriveForDistanceController.vi"/>
-			<Item Name="Robot.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/Robot.vi"/>
 			<Item Name="robotFriction.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/robotFriction.vi"/>
 			<Item Name="motorTorque.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/motorTorque.vi"/>
 			<Item Name="robotSimulation.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/robotSimulation.vi"/>
+			<Item Name="Robot.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/Robot.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -178,7 +178,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous/Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="PathFileData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -964,7 +963,11 @@ AddOutputFilter chunkFilter
 			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
 			<Item Name="InjectPoints.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/InjectPoints.vi"/>
-			<Item Name="Robot.vi" Type="VI" URL="../Support Code/RobotSimulator/Robot.vi"/>
+			<Item Name="robotFriction.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/robotFriction.vi"/>
+			<Item Name="motorTorque.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/motorTorque.vi"/>
+			<Item Name="robotSimulation.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/robotSimulation.vi"/>
+			<Item Name="PathFileData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
+			<Item Name="Robot.vi" Type="VI" URL="../../Dawgma Programming Library/RobotSimulator/Robot.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
