@@ -174,6 +174,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
+		<Item Name="intake (SubVI).vi" Type="VI" URL="../../../HenryStateMachine/intake (SubVI).vi"/>
+		<Item Name="duration (SubVI).vi" Type="VI" URL="../../../HenryStateMachine/duration (SubVI).vi"/>
+		<Item Name="path (SubVI).vi" Type="VI" URL="../../../HenryStateMachine/path (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
